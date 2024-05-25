@@ -1,0 +1,25 @@
+.service-container{
+background-color: rgb(208, 223, 252);
+margin: 10px;
+border-radius: 10px;
+}
+.service-container img{
+    margin-top: 10px;
+    border-radius: 10px;
+}
+.service-container p{
+    margin: 10px;
+}
+.service-container h6{
+    text-align: start;
+    margin-left: 10px;
+    color: red;
+}
+.service-container button{
+    padding: 10px;
+    margin-bottom: 5px;
+    background-color: rgb(224, 53, 53);
+    border-radius: 10px;
+    border: none;
+    width: 90%;
+}

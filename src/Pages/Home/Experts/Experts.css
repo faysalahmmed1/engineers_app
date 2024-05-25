@@ -1,0 +1,31 @@
+.experts-tittle {
+    padding: 10px;
+    color: blue;
+    font-size: 50px;
+}
+
+.experts-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+}
+
+/*Make Experts Responsive */
+@media only screen and (max-width: 576px) {
+    .experts-container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        padding: 10px;
+        grid-gap: 10px
+    }
+
+}
+
+@media only screen and (min-width: 577px) and (max-width:992px) {
+    .experts-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 10px;
+        padding: 10px;
+    }
+}

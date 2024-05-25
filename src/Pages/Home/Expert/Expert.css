@@ -1,0 +1,32 @@
+.expert-conteiner {
+    margin: 10px;
+    background-color: rgb(178, 167, 159);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.expert-conteiner img {
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.expert-conteiner a {
+    background-color: red;
+    border-radius: 10px;
+    border: none;
+    text-decoration: none;
+    margin-bottom: 10px;
+    font-size: 15px;
+    color: wheat;
+    padding: 10px;
+    width: 80%;
+}
+
+.experts-button {
+    padding: 10px;
+    margin-bottom: 5px;
+    background-color: rgb(224, 53, 53);
+    border-radius: 10px;
+    border: none;
+    width: 90%;
+}

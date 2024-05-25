@@ -1,0 +1,17 @@
+.signUp-container{
+    margin-top: 50px;
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color: rgb(240, 205, 149);
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.signUp-container h1 {
+    text-align: center;
+    color: rgb(5, 6, 1);
+    margin-bottom: 20px;
+}
+.signUp-link{
+    margin-top: 15px;
+}
