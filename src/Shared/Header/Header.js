@@ -45,7 +45,7 @@ const Header = () => {
                     <a href="/">
                         <img className='header-logo' src={logo} alt="" />
                     </a>
-                    
+
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
 
@@ -53,6 +53,7 @@ const Header = () => {
                             <Nav.Link as={Link} to="/">Home</Nav.Link>
                             <Nav.Link as={Link} to="/service">Service</Nav.Link>
                             <Nav.Link as={Link} to="/experts">Experts</Nav.Link>
+                            <Nav.Link as={Link} to="/blogs">Blogs</Nav.Link>
                             <Nav.Link as={Link} to='/about'>About</Nav.Link>
                             {
                                 user ?

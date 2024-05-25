@@ -1,0 +1,45 @@
+.blogs-container {
+    background-color: rgb(255, 254, 254);
+    border-radius: 20px;
+    margin: 20px;
+}
+
+.blogs-one {
+
+    background-color: rgb(83, 161, 228);
+    border: solid red 2px;
+    margin-bottom: 20px;
+
+}
+
+.blogs-ones {
+    margin: 20px;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+.blogs-two {
+
+    background-color: rgb(230, 232, 166);
+    border: solid red 2px;
+
+}
+
+.blogs-twos {
+    margin: 20px;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+.blogs-three {
+
+    background-color: rgb(253, 168, 168);
+    border: solid red 2px;
+
+}
+
+.blogs-threes {
+    margin: 20px;
+    padding: 20px;
+    margin-bottom: 10px;
+}
