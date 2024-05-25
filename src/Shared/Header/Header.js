@@ -1,7 +1,7 @@
 
 import './Header.css';
 import { Container, Nav, Navbar } from 'react-bootstrap';
-import logo from '../../Images/logo/logo.png'
+import logo from '../../../src/Images/logo/Computer.png';
 import { useAuthState, useSignOut } from 'react-firebase-hooks/auth';
 import auth from '../../firebase.init';
 import { Link } from 'react-router-dom';
@@ -45,8 +45,10 @@ const Header = () => {
                     <a href="/">
                         <img className='header-logo' src={logo} alt="" />
                     </a>
+                    
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
+
                         <Nav className='nav-container'>
                             <Nav.Link as={Link} to="/">Home</Nav.Link>
                             <Nav.Link as={Link} to="/service">Service</Nav.Link>

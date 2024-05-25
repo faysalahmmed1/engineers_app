@@ -1,9 +1,8 @@
 .footer-conteiner{
-    background-color: black;
+    background-color: rgb(0, 0, 0);
     color: wheat;
-    padding: 5px;
-    position: fixed;
-    bottom: 0;
+    font-size: 25px;
+    padding: 20px;
     width: 100%;
     
 }

@@ -1,8 +1,9 @@
 import React, { useState } from 'react';
+import './Banar.css';
 import { Carousel } from 'react-bootstrap';
-import banar1 from '../../../Images/banner/banner1.jpg';
-import banar2 from '../../../Images/banner/banner2.jpg';
-import banar3 from '../../../Images/banner/banner3.jpg'
+import banar1 from '../../../Images/eng-banar/banar2.avif';
+import banar2 from '../../../Images/eng-banar/banar1.avif';
+import banar3 from '../../../Images/eng-banar/banar3.avif';
 
 const Banar = () => {
     const [index, setIndex] = useState(0);
@@ -11,29 +12,24 @@ const Banar = () => {
         setIndex(selectedIndex);
     };
     return (
-        <div>
+        <div className='banar-container'>
             <Carousel activeIndex={index} onSelect={handleSelect}>
                 <Carousel.Item>
-                    <img src={banar1} alt="" />
+                    <img className='img-style' src={banar1} alt="" />
                     <Carousel.Caption>
-                        <h3>First slide label</h3>
-                        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                        <h3> Engineer First slide</h3>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
-                    <img src={banar2} alt="" />
+                    <img className='img-style' src={banar2} alt="" />
                     <Carousel.Caption>
-                        <h3>Second slide label</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <h3> Engineer Second slide</h3>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
-                    <img src={banar3} alt="" />
+                    <img className='img-style' src={banar3} alt="" />
                     <Carousel.Caption>
-                        <h3>Third slide label</h3>
-                        <p>
-                            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-                        </p>
+                        <h3>Engineer Third slide</h3>
                     </Carousel.Caption>
                 </Carousel.Item>
             </Carousel>

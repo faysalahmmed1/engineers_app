@@ -1,0 +1,15 @@
+.banar-container h3{
+ font-size: 30px;
+ color: rgb(255, 243, 22);
+}
+.img-style{
+    width: 1539px;
+    height: 626px;
+}
+@media only screen and (max-width:576px){
+    .img-style{
+        width: 500px;
+        height: 350px;
+    }
+    
+}
