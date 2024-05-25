@@ -4,9 +4,7 @@ top: 0;
 justify-content: end;
 background-color: rgb(238, 232, 232);
 }
-.gunius-header{
-    
-}
+
 .header-logo{
     width: 90px;
     border-radius: 40px;
@@ -25,9 +23,16 @@ background-color: rgb(238, 232, 232);
     color: yellow;
 }
 .log-out-button{
-    background-color:blueviolet;
+    background-color:rgb(236, 178, 5);
     border: none;
-    margin-top: 2px;
-    font-size: 20px;
-
+    border-radius: 20px;
+    font-size: 17px;
+}
+@media only screen and (max-width:576px) {
+    .log-out-button{
+        width: 60px;
+        padding: 5px;
+        margin-left: 80px;
+    }
+    
 }

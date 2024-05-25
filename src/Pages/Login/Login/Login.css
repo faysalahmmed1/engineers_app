@@ -23,3 +23,10 @@
     color: wheat;
 
 }
+@media only screen and (max-width:576) {
+    .login-container{
+        width: 500px;
+        height: 400px;
+    }
+    
+}
