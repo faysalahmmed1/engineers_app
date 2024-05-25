@@ -61,7 +61,9 @@ const Login = () => {
                         Submit
                     </Button>
                 </Form>
-                <p className='login-link'>Create Now Account?  <span><Link style={{ textDecoration: 'none', color: 'red', fontSize: '20px', marginTop: '20px' }} to={'/signup'}>Signup</Link></span></p>
+                <p className='login-link'>Create Now Account?  <span><Link style={{ textDecoration: 'none', color: 'blue', fontSize: '20px', marginTop: '20px' }} to={'/signup'}>Signup</Link></span></p>
+                
+                <p className='login-link'>Forget Password?  <span><Link style={{ textDecoration: 'none', color: 'blue', fontSize: '20px', marginTop: '20px' }} to={'/signup'}>forget Password</Link></span></p>
             </div>
             <div className='button-container'>
                 <button onClick={() => SignInWithGoogle()} className='google-button'>SignIn With Google</button>

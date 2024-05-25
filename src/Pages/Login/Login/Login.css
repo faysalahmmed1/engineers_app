@@ -2,7 +2,7 @@
     margin-top: 50px;
     margin-left: 20%;
     margin-right: 20%;
-    background-color: rgb(182, 170, 151);
+    background-color: rgb(240, 240, 242);
     padding: 30px;
     border-radius: 10px;
 }
@@ -19,7 +19,7 @@
     border: none;
     padding: 10px;
     border-radius: 10px;
-    background-color: red;
+    background-color: rgb(255, 15, 15);
     color: wheat;
 
 }

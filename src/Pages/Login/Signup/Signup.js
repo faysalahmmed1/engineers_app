@@ -19,7 +19,7 @@ const Signup = () => {
         user,
         loading,
         error,
-    ] = useCreateUserWithEmailAndPassword(auth);
+    ] = useCreateUserWithEmailAndPassword(auth, { sendEmailVerification: true });
 
     if (error) {
         return (
@@ -64,16 +64,16 @@ const Signup = () => {
                 </Form.Group>
                 <Form.Group className="mb-3" controlId="formBasicEmail">
                     <Form.Label>Email address</Form.Label>
-                    <Form.Control onChange={handleEmail} type="email" placeholder="Enter email" required/>
+                    <Form.Control onChange={handleEmail} type="email" placeholder="Enter email" required />
                 </Form.Group>
 
                 <Form.Group className="mb-3" controlId="formBasicPassword">
                     <Form.Label>Password</Form.Label>
-                    <Form.Control onChange={handlepassword} type="password" placeholder="Password"  required/>
+                    <Form.Control onChange={handlepassword} type="password" placeholder="Password" required />
                 </Form.Group>
                 <Form.Group className="mb-3" controlId="formBasicConfirmPassword">
                     <Form.Label>Password</Form.Label>
-                    <Form.Control onChange={handleConfirmPassword} type="ConfirmPassword" placeholder="ConfirmPassword" required/>
+                    <Form.Control onChange={handleConfirmPassword} type="ConfirmPassword" placeholder="ConfirmPassword" required />
                 </Form.Group>
                 <Button variant="primary" type="submit">
                     Submit
