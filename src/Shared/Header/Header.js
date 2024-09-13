@@ -53,7 +53,7 @@ const Header = () => {
                             <Nav.Link as={Link} to="/">Home</Nav.Link>
                             <Nav.Link as={Link} to="/service">Service</Nav.Link>
                             <Nav.Link as={Link} to="/experts">Experts</Nav.Link>
-                            <Nav.Link as={Link} to="/blogs">Blogs</Nav.Link>
+                            {/* <Nav.Link as={Link} to="/blogs">Blogs</Nav.Link> */}
                             <Nav.Link as={Link} to='/about'>About</Nav.Link>
                             {
                                 user ?
